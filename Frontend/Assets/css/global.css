@@ -1,0 +1,6 @@
+:root{ --dark:#212121; }
+*{ margin: 0px; padding: 0px;}
+@font-face{ font-family: "fontApp"; src: url("../font/PoiretOne-Regular.ttf") }
+.center{ display: flex; justify-content: center; align-items: center; }
+.appFont{ font-family: "fontApp"; font-weight: 100; }
+#tituloApp > h1{ font-size: 55px; color:var(--dark); }
